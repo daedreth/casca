@@ -31,19 +31,24 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 ## Packages
 
-* **net-im/**
+* **net-im**
   * **[B]** discord-bin-*0.0.2-r3*: [STABLE] An up to date discord binary.
 
   * **[M]** discord-canary-bin-*0.0.31*: [TESTING] An up to date discord-canary binary. Missing from the official repo.
 
-* **sys-admin/**
+* **sys-admin**
   * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
+
+* **x11-libs**
+  * **[M]** vte-ng-*0.44.1.9999*: [STABLE] It's a patched version that works with termite, has to be here.
 
 * **x11-plugins**
   * **[M][S]** purple-discord-*9999*: [TESTING] A nifty plugin for pidgin, not in the main repo.
 
 * **x11-terms**
   * **[B]** st-*9999*: [TESTING] Latest commit of the suckless terminal.
+
+  * **[M][WTF]** termite-*12*: [STABLE] Getting termite to compile is a pain, but not anymore. I understand why it's not in the tree. 
 
   * **[O]** tilda-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
