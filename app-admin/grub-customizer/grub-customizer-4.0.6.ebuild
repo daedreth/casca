@@ -14,7 +14,7 @@ SRC_URI="https://launchpad.net/${PN}/${PB}/${PV}/+download/${PN}_${PV}.tar.gz"
 
 LICENSE="GPL3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND="dev-cpp/gtkmm:3.0
