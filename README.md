@@ -11,7 +11,9 @@ So there we go, a new tiny overlay.
 
 This is most likely going to grow out of proportion, but I'd like to provide a reasoning for each ebuild.
 
-**grub-customizer**-*4.0.6*: It's simply missing from the official repository, no idea why.
+**sys-admin/grub-customizer**-*4.0.6*: It's simply missing from the official repository, no idea why.
+
+**x11-terms/tilda**-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
 
 ## How do I use this?  
