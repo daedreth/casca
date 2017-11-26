@@ -17,6 +17,8 @@ This is most likely going to grow out of proportion, but I'd like to provide a r
 
 **x11-plugins/purple-discord**-*9999*: [UNSTABLE] A nifty plugin for pidgin, not in the main repo.
 
+**net-im/discord-bin**-*0.0.2-r3*: [STABLE] An up to date discord binary.
+
 
 ## How do I use this?  
 
