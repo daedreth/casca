@@ -19,6 +19,8 @@ This is most likely going to grow out of proportion, but I'd like to provide a r
 
 **net-im/discord-bin**-*0.0.2-r3*: [STABLE] An up to date discord binary.
 
+**net-im/discord-canary-bin**-*0.0.31*: [UNSTABLE] An up to date discord-canary binary.
+
 
 ## How do I use this?  
 
