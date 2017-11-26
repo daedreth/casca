@@ -31,13 +31,16 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 ## Packages
 
+* **app-admin**
+  * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
+
+* **app-editor**
+  * **[WTF]** emacs-*25.2*: [STABLE] Scroll down, see for yourself.
+
 * **net-im**
   * **[B]** discord-bin-*0.0.2-r3*: [STABLE] An up to date discord binary.
 
   * **[M]** discord-canary-bin-*0.0.31*: [TESTING] An up to date discord-canary binary. Missing from the official repo.
-
-* **sys-admin**
-  * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
 
 * **x11-libs**
   * **[M]** vte-ng-*0.44.1.9999*: [STABLE] It's a patched version that works with termite, has to be here.
@@ -51,6 +54,16 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][WTF]** termite-*12*: [STABLE] Getting termite to compile is a pain, but not anymore. I understand why it's not in the tree. 
 
   * **[O]** tilda-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
+
+
+## Emacs, or how I learned to ignore USE flags.
+
+The default emacs ebuild in the portage tree ignores some of your USE flags.
+I do not know if it's the profiles default settings that do it or something else and my valiant efforts to find out what is going on have failed miserably. This ebuild is also the main force that motivated me to learn how to write 'em.
+What this particular emacs ebuild does is quite stupid, but necessary if you like your gtk3 or would like to use the webkit browser within emacs.
+It's going to ignore your `xwidget` and `gtk3` USE flags and display them not set, but will compile emacs with support for both, just like that; Just make sure that you are getting the ebuild from ::casca, not ::gentoo. I'm not sure what the reasoning behind this madness is but I like my software submissive and obedient, now you get to do whatever you want with emacs.
+
+It goes without saying but all other USE flags remain 100% functional.
 
 
 ## How do I use this?  
