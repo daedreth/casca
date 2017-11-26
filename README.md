@@ -33,6 +33,7 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 * **app-admin**
   * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
+  * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
 * **app-editor**
   * **[WTF]** emacs-*25.2*: [STABLE] Scroll down, see for yourself.
