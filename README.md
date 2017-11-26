@@ -7,21 +7,45 @@ Other ebuilds simply do not work as desired, I'm here to fix that.
 So there we go, a new tiny overlay.
 
 
-## Package list
+## Packages
 
-This is most likely going to grow out of proportion, but I'd like to provide a reasoning for each ebuild.
+This is most likely going to grow out of proportions, but I'd like to provide a reasoning for each ebuild.
 
-**sys-admin/grub-customizer**-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
+# Package list
 
-**x11-terms/tilda**-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
-**x11-plugins/purple-discord**-*9999*: [UNSTABLE] A nifty plugin for pidgin, not in the main repo.
+## Explanation
 
-**net-im/discord-bin**-*0.0.2-r3*: [STABLE] An up to date discord binary.
+* The bold text is the category the ebuild belongs to.
+* The regular text is the package name.
+* The italic text is the ebuild version. Note that *9999* stands for bleeding edge, mostly referring to latest commits.
+* The [STABLE] and [TESTING] labels refer to the state of the software, I apply them to my best knowledge and with your interest in mind.
+* What follows is a short description/reasoning for the ebuilds existence.
+* Most importantly, the short tags in front of the package name refer to the reasoning for the ebuild in short, it goes as follows:
+  * [M] stands for "missing", as in it is not present in the official portage tree.
+  * [B] stands for "bump" and mostly indicates a small version bump due to a critical issue/feature being added.
+  * [O] stands for "outdated" and is reserved for ebuilds which are big updates over the official repository.
+  * [S] stands for "strange" I guess. Mostly less known software.
+  * [D] stands for an ebuild that was "deleted", just to make sure you can still use it from here.
+  * [WTF] is a tag that will be used to mark ebuilds that work, as opposed to official ones, or fix huge issues, or do something specific, I'll be elaborating on those in the description.
 
-**net-im/discord-canary-bin**-*0.0.31*: [UNSTABLE] An up to date discord-canary binary. Missing from the official repo.
+## Packages
 
-**x11-terms/st**-*9999*: [UNSTABLE] Latest commit of the suckless terminal.
+* **net-im/**
+  * **[B]** discord-bin-*0.0.2-r3*: [STABLE] An up to date discord binary.
+
+  * **[M]** discord-canary-bin-*0.0.31*: [TESTING] An up to date discord-canary binary. Missing from the official repo.
+
+* **sys-admin/**
+  * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
+
+* **x11-plugins**
+  * **[M][S]** purple-discord-*9999*: [TESTING] A nifty plugin for pidgin, not in the main repo.
+
+* **x11-terms**
+  * **[B]** st-*9999*: [TESTING] Latest commit of the suckless terminal.
+
+  * **[O]** tilda-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
 
 ## How do I use this?  
@@ -42,15 +66,44 @@ Configure the repository:
 
 Save the file and close it.
 
+
 ## Manual sync
 
     $ emaint sync -r casca
+
 
 ## Automatic sync
 
 Every time you run `emerge --sync` or something similar in effect, casca will be updated automagically.
 
     $ emerge --sync
+
+If this behaviour is for some reason undesireable, you can always change the `auto-sync` property to `no` in the /etc/portage/repos.conf/casca.conf file
+
+
+## FAQ
+
+*Are overlays dangerous?*
+
+Generally, no. If one of the packages breaks you won't find support on the official irc channel, thats about it.
+
+*Why should I add and use this one over the others?*
+
+You tell me. In general more well known overlays are meant to have specific uses and packages out of a single "family", if you will.
+For instance, the qt overlay, providing the latest versions of the framework. The aim of this is to gradually add ebuilds for whatever the default gentoo portage tree lacks, the moment it's up to date, I'll be deleting the ebuild from here as to not unnecessarily interfere with the portage ecosystem.
+
+*Can you add ${PACKAGE}?*
+
+Sure, open an issue if you noticed that something is missing from the official tree or that it's outdated. I'll handle that.
+
+*Every emerge I do portage complains about wrong filesize, what do?*
+
+Open an issue, or find me on freenode and tell me which file is the culprit, I'll fix the manifests.
+
+*Why are you doing this?*
+
+I hate compiling Tilda from source every time they release an update.
+
 
 ## Troubleshooting
 
