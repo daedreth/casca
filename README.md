@@ -15,6 +15,8 @@ This is most likely going to grow out of proportion, but I'd like to provide a r
 
 **x11-terms/tilda**-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
+**x11-plugins/purple-discord**-*9999*: [UNSTABLE] A nifty plugin for pidgin, not in the main repo.
+
 
 ## How do I use this?  
 
