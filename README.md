@@ -46,6 +46,9 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 * **x11-libs**
   * **[M]** vte-ng-*0.44.1.9999*: [STABLE] It's a patched version that works with termite, has to be here.
 
+* **x11-misc**
+  * **[B]** sxhkd-*9999*: [TESTING] Bleeding edge sxhkd ebuild. 
+
 * **x11-plugins**
   * **[M][S]** purple-discord-*9999*: [TESTING] A nifty plugin for pidgin, not in the main repo.
 
@@ -55,6 +58,9 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][WTF]** termite-*12*: [STABLE] Getting termite to compile is a pain, but not anymore. I understand why it's not in the tree. 
 
   * **[O]** tilda-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
+
+* **x11-wm**
+  * **[B]** bspwm-*9999*: [TESTING] Bleeding edge bspwm ebuild.
 
 
 ## Emacs, or how I learned to ignore USE flags.
