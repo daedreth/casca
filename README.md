@@ -35,9 +35,6 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
-* **app-editor**
-  * **[WTF]** emacs-*25.2*: [STABLE] Scroll down, see for yourself.
-
 * **net-im**
   * **[B]** discord-bin-*0.0.2-r3*: [STABLE] An up to date discord binary.
 
@@ -61,16 +58,6 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 * **x11-wm**
   * **[B]** bspwm-*9999*: [TESTING] Bleeding edge bspwm ebuild.
-
-
-## Emacs, or how I learned to ignore USE flags.
-
-The default emacs ebuild in the portage tree ignores some of your USE flags.
-I do not know if it's the profiles default settings that do it or something else and my valiant efforts to find out what is going on have failed miserably. This ebuild is also the main force that motivated me to learn how to write 'em.
-What this particular emacs ebuild does is quite stupid, but necessary if you like your gtk3 or would like to use the webkit browser within emacs.
-It's going to ignore your `xwidget` and `gtk3` USE flags and display them not set, but will compile emacs with support for both, just like that; Just make sure that you are getting the ebuild from ::casca, not ::gentoo. I'm not sure what the reasoning behind this madness is but I like my software submissive and obedient, now you get to do whatever you want with emacs.
-
-It goes without saying but all other USE flags remain 100% functional.
 
 
 ## How do I use this?  
