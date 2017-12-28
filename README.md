@@ -44,7 +44,8 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M]** vte-ng-*0.44.1.9999*: [STABLE] It's a patched version that works with termite, has to be here.
 
 * **x11-misc**
-  * **[B]** sxhkd-*9999*: [TESTING] Bleeding edge sxhkd ebuild. 
+  * **[B]** sxhkd-*9999*: [TESTING] Bleeding edge sxhkd ebuild.
+  * **[M]** lemonbar-*1.3*: [STABLE] Missing from the official repository.
 
 * **x11-plugins**
   * **[M][S]** purple-discord-*9999*: [TESTING] A nifty plugin for pidgin, not in the main repo.
