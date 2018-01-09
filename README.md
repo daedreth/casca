@@ -36,8 +36,9 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
 * **net-im**
-  * **[B]** discord-bin-*0.0.2-r3*: [STABLE] An up to date discord binary.
-  * **[B]** discord-bin-*0.0.3*: [STABLE] Bumped version to new release.
+  * **[B]** discord-bin-*0.0.3*: [STABLE] Previous discord binary.
+  * **[B]** discord-bin-*0.0.4*: [STABLE] An up to date discord binary.
+
 
   * **[M]** discord-canary-bin-*0.0.31*: [TESTING] An up to date discord-canary binary. Missing from the official repo.
 
