@@ -37,7 +37,8 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 * **net-im**
   * **[B]** discord-bin-*0.0.3*: [STABLE] Previous discord binary.
-  * **[B]** discord-bin-*0.0.4*: [STABLE] An up to date discord binary.
+  * **[B]** discord-bin-*0.0.4*: [STABLE] Previous discord binary.
+  * **[B]** discord-bin-*0.0.5*: [STABLE] An up to date discord binary.
 
 
   * **[M]** discord-canary-bin-*0.0.31*: [TESTING] An up to date discord-canary binary. Missing from the official repo.
