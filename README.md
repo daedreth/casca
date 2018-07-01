@@ -35,6 +35,8 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M]** grub-customizer-*4.0.6*: [STABLE] It's simply missing from the official repository, no idea why.
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
+* **media-sound**
+  * **[M]** musikcube-*0.50.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
 * **net-im**
   * **[B]** discord-bin-*0.0.3*: [STABLE] Previous discord binary.
   * **[B]** discord-bin-*0.0.4*: [STABLE] Previous discord binary.
