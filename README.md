@@ -37,6 +37,8 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 
 * **media-sound**
   * **[M]** musikcube-*0.50.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
+  * **[M]** cava-*0.6.1*: [STABLE] Console-based Audio Visualizer for Alsa. Missing from the official repositories.
+
 * **net-im**
   * **[B]** discord-bin-*0.0.3*: [STABLE] Previous discord binary.
   * **[B]** discord-bin-*0.0.4*: [STABLE] Previous discord binary.
