@@ -36,7 +36,7 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
 * **media-sound**
-  * **[M]** musikcube-*0.61.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
+  * **[M]** musikcube-*0.70.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
   * **[M]** cava-*0.6.1*: [STABLE] Console-based Audio Visualizer for Alsa. Missing from the official repositories.
 
 * **net-im**
@@ -81,7 +81,7 @@ Configure the repository:
     [casca]
     location = /usr/local/casca
     sync-type = git
-    sync-uri = https://github.com/daedreth/casca.git
+    sync-uri = https://github.com/sixardyh/casca.git
     auto-sync = yes
 
 Save the file and close it.
