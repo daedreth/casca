@@ -36,7 +36,7 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
 * **media-sound**
-  * **[M]** musikcube-*0.83.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
+  * **[M]** musikcube-*0.93.1*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
   * **[M]** cava-*0.6.1*: [STABLE] Console-based Audio Visualizer for Alsa. Missing from the official repositories.
 
 * **net-im**
