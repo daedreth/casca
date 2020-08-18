@@ -24,6 +24,7 @@ RDEPEND="media-libs/faad2
 	dev-libs/libev
 	net-misc/curl
 	net-libs/libmicrohttpd
+	sys-libs/zlib
 	pulseaudio? ( media-sound/pulseaudio )"
 DEPEND="${RDEPEND}
 	dev-util/cmake"

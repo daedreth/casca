@@ -36,7 +36,7 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[M][B]** grub-customizer-*5.0.6*: [TESTING] Bumped version to newest release.
 
 * **media-sound**
-  * **[M]** musikcube-*0.51.0*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
+  * **[M]** musikcube-*0.93.1*: [STABLE] A cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++. Missing from the official repositories.
   * **[M]** cava-*0.6.1*: [STABLE] Console-based Audio Visualizer for Alsa. Missing from the official repositories.
 
 * **net-im**
@@ -60,7 +60,7 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
 * **x11-terms**
   * **[B]** st-*9999*: [TESTING] Latest commit of the suckless terminal.
 
-  * **[M][WTF]** termite-*12*: [STABLE] Getting termite to compile is a pain, but not anymore. I understand why it's not in the tree. 
+  * **[M][WTF]** termite-*12*: [STABLE] Getting termite to compile is a pain, but not anymore. I understand why it's not in the tree.
 
   * **[O]** tilda-*1.3.3*: [STABLE] The version from the gentoo repo is very outdated and lacks a lot of options.
 
@@ -68,21 +68,21 @@ This is most likely going to grow out of proportions, but I'd like to provide a 
   * **[B]** bspwm-*9999*: [TESTING] Bleeding edge bspwm ebuild.
 
 
-## How do I use this?  
+## How do I use this?
 
 Create the following directory if it doesn't exist yet.
-    
+
     # mkdir -p /etc/portage/repos.conf
 
-Configure the repository:  
+Configure the repository:
 
 
     # edit /etc/portage/repos.conf/casca.conf with your favorite editor
     [casca]
     location = /usr/local/casca
     sync-type = git
-    sync-uri = https://github.com/daedreth/casca.git
-    auto-sync = yes  
+    sync-uri = https://github.com/sixardyh/casca.git
+    auto-sync = yes
 
 Save the file and close it.
 
